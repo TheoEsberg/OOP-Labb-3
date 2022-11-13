@@ -5,15 +5,15 @@ using System.Text;
 
 namespace OOP_Labb_3
 {
-    internal class Cirkel : Geometri
+    internal class Circle : Geometry
     {
         protected double Radius { get; set; }
 
-        public Cirkel() {
+        public Circle() {
             this.Radius = 4;
         }
 
-        public Cirkel(double radius) {
+        public Circle(double radius) {
             this.Radius = radius;
         }
 

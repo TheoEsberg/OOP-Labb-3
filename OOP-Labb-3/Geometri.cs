@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Labb_3
 {
-    abstract class Geometri
+    abstract class Geometry
     {
         public abstract double Area();
     }

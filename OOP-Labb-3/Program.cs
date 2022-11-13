@@ -6,15 +6,15 @@ namespace OOP_Labb_3
     {
         static void Main(string[] args)
         {
-            Geometri geo;
+            Geometry geo;
 
-            geo = new Cirkel();
+            geo = new Circle();
             Console.WriteLine("Cirkel Area: {0}a.e", geo.Area());
 
-            geo = new Fyrkant();
+            geo = new Square();
             Console.WriteLine("Fyrkant Area: {0}a.e", geo.Area());
 
-            geo = new Rektangel();
+            geo = new Rectangle();
             Console.WriteLine("Rektangel Area: {0}a.e", geo.Area());
         }
     }

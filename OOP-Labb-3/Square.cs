@@ -4,16 +4,16 @@ using System.Text;
 
 namespace OOP_Labb_3
 {
-    internal class Fyrkant : Geometri
+    internal class Square : Geometry
     {
         protected double Width { get; set; }
 
-        public Fyrkant()
+        public Square()
         {
             this.Width = 4;
         }
 
-        public Fyrkant(double width) {
+        public Square(double width) {
             this.Width = width;
         }
 
